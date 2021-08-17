@@ -1,0 +1,1 @@
+export const symptoms = ['Fever', 'Dry Cough','Fatigue', 'Aches and Pains','Runny Nose', 'Sore Throat','Shortness of Breath','Diarrhea','Headache', 'Loss of Smell and Taste']
