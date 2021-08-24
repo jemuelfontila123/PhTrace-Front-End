@@ -1,12 +1,13 @@
 import "./index.css";
 import React, { useEffect, useState, useContext } from "react";
-import UserContext from "./contexts/UserContext";
+import UserContext from "./contexts/User/UserContext";
 import RegisterForm from "./components/RegisterForm";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Scanner from "./components/Admin/Scanner";
 import UserCard from "./components/User/UserCard";
 import Admin from "./components/Admin/Admin";
+// import Admin from './views/Admin/Admin'
 import LoginForm from "./components/LoginForm";
 import usersApi from "./services/usersApi";
 import loginApi from "./services/loginApi";

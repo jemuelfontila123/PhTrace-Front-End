@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import UserContext from "../../contexts/User/UserContext";
+import UserContext from "../../contexts/UserContext";
 import AddIcon from "@material-ui/icons/Add";
 import Table from "./Table";
 import DialogForm from "../DialogForm";

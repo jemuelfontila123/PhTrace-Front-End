@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
-import UserContext from "../../contexts/User/UserContext";
+import UserContext from "../../contexts/UserContext";
 import Table from "./Table";
 import TuneIcon from "@material-ui/icons/Tune";
 import SendIcon from "@material-ui/icons/Send";

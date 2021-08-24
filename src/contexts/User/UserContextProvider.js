@@ -1,7 +1,7 @@
 import React, {useReducer} from 'react';
 import UserReducer from './UserReducer'
 import UserContext from './UserContext'
-import establishmentsApi from '../services/establishmentsApi'
+import establishmentsApi from 'services/establishmentsApi'
 
 const UserContextProvider = (props) => {
     const initialState = {user: null};

@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import DialogForm from "../DialogForm";
-import UserContext from "../../contexts/UserContext";
+import UserContext from "../../contexts/User/UserContext";
 import UserPrivacy from "./UserPrivacy";
 import UserVerification from "./UserVerification";
 import UserQRCode from "./UserQRCode";

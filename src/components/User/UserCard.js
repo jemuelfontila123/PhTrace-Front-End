@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
-import UserContext from "../../contexts/UserContext";
+import UserContext from "../../contexts/User/UserContext";
 import download from "../../images/Download.svg";
 import logo from "../../images/Logo.svg";
 import PublishIcon from "@material-ui/icons/Publish";
