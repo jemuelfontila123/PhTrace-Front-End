@@ -1,16 +1,16 @@
 import React, { useContext, useState, useEffect } from "react";
-import UserContext from "../../contexts/UserContext";
-import download from "../../images/Download.svg";
-import logo from "../../images/Logo.svg";
+import UserContext from "contexts/User/UserContext";
+import download from "images/Download.svg";
+import logo from "images/Logo.svg";
 import PublishIcon from "@material-ui/icons/Publish";
-import UserUpload from "./UserUpload";
-import UserQr from "./UserQr";
-import UserSettings from "./UserSettings";
+import UserUpload from "./Settings/UserUpload";
+import UserQr from "./QR/UserQr";
+import UserSettings from "./Settings/UserSettings";
 import Button from "@material-ui/core/Button";
 import SettingsIcon from "@material-ui/icons/Settings";
 import CropFreeIcon from "@material-ui/icons/CropFree";
 import Snackbar from "@material-ui/core/Snackbar";
-import Alert from "../Alert";
+import Alert from "components/Alert";
 const imgStyle = {
   maxHeight: "15rem",
   borderRadius: "16px",

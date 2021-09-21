@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import UserSelect from "./UserSelect";
-import reg from "../images/Register.svg";
+import UserSelect from "components/Form/UserSelect";
+import reg from "images/Register.svg";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useForm } from "react-hook-form";
-import logo from "../images/Logo.svg";
+import logo from "images/Logo.svg";
 import { Link } from "react-router-dom";
 
 const eye = <FontAwesomeIcon icon={faEye} />;

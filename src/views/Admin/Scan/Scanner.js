@@ -1,11 +1,11 @@
 import React, { useState, useContext, useEffect } from "react";
-import UserContext from "../../contexts/User/UserContext";
+import UserContext from "contexts/UserContext";
 import QrReader from "react-qr-scanner";
-import scanner from "../../images/scanner.jpg";
-import logo from "../../images/Logo.svg";
+import scanner from "images/scanner.jpg";
+import logo from "images/Logo.svg";
 import { Link } from "react-router-dom";
 import UserForm from "./UserForm";
-import DialogForm from "../Modal/DialogForm";
+import DialogForm from "components/Modal/DialogForm";
 import Snackbar from "@material-ui/core/Snackbar";
 import Alert from "../Alert";
 const camStyle = {

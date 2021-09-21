@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React, { useContext } from "react";
-import UserContext from "../contexts/UserContext";
-import logo from "../images/Logo.svg";
+import UserContext from "contexts/User/UserContext";
+import logo from "images/Logo.svg";
 import HorizontalSplitIcon from "@material-ui/icons/HorizontalSplit";
 import HomeIcon from "@material-ui/icons/Home";
 import EditIcon from "@material-ui/icons/Edit";

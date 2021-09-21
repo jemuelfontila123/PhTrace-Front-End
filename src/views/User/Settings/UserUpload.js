@@ -1,8 +1,8 @@
 import React, { useState, useContext } from "react";
-import DialogForm from "../DialogForm";
+import DialogForm from "components/Modal/DialogForm";
 import Button from "@material-ui/core/Button";
-import usersApi from "../../services/usersApi";
-import UserContext from "../../contexts/UserContext";
+import usersApi from "services/usersApi";
+import UserContext from "contexts/User/UserContext";
 const UserUpload = ({ open, setOpen, id, setSuccess, setFailure }) => {
   const [file, setFile] = useState(null);
   const userContext = useContext(UserContext);

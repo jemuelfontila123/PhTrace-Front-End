@@ -1,9 +1,9 @@
 import React, { useState, useContext } from "react";
 import Button from "@material-ui/core/Button";
 import { useForm } from "react-hook-form";
-import textApi from "../../services/textApi";
-import UserContext from "../../contexts/UserContext";
-import usersApi from "../../services/usersApi";
+import textApi from "services/textApi";
+import UserContext from "contexts/User/UserContext";
+import usersApi from "services/usersApi";
 const UserVerification = ({ setPage, setOpen, state, setState }) => {
   const { register, handleSubmit, errors, reset } = useForm();
   const userContext = useContext(UserContext);

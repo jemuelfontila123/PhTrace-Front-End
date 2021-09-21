@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
-import login from "../images/Login.png";
-import logo from "../images/Logo.svg";
+import login from "images/Login.png";
+import logo from "images/Logo.svg";
 import { Link } from "react-router-dom";
 const LoginForm = ({ userLogin, setSuccessfulRegister }) => {
   const [error, setError] = useState(false);

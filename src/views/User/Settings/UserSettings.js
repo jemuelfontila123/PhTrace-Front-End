@@ -1,11 +1,11 @@
 import React, { useContext } from "react";
-import UserContext from "../../contexts/UserContext";
+import UserContext from "contexts/User/UserContext";
 import SaveAltIcon from "@material-ui/icons/SaveAlt";
 import HomeIcon from "@material-ui/icons/Home";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import Button from "@material-ui/core/Button";
 import { useForm } from "react-hook-form";
-import usersApi from "../../services/usersApi";
+import usersApi from "services/usersApi";
 const UserSettings = ({ setPage, setBlank, setSuccessUpdate }) => {
   const userContext = useContext(UserContext);
   const { user } = userContext;

@@ -1,11 +1,13 @@
 import React, { useContext } from "react";
-import qr from "../images/QR.png";
-import tracing from "../images/Tracing.svg";
-import privacy from "../images/Privacy.svg";
+import qr from "images/QR.png";
+import tracing from "images/Tracing.svg";
+import privacy from "images/Privacy.svg";
 import { Link } from "react-router-dom";
+import Navbar from './Navbar'
 const Home = () => {
   return (
     <>
+      <Navbar/>
       <section className="container section-grid section1">
         <div className="grid-one">
           <h1>We make filling in forms easy for you</h1>

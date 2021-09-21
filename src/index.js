@@ -1,15 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
-import UserContextProvider from './contexts/UserContextProvider'
-import {
-    BrowserRouter as Router
-} from 'react-router-dom'
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import { BrowserRouter as Router } from "react-router-dom";
+import UserContextProvider from 'contexts/User/UserContextProvider'
 ReactDOM.render(
-<Router>
+  <Router>
     <UserContextProvider>
-        <App />
+      <App />
+      {/* <Wow/> */}
     </UserContextProvider>
-</Router>, 
-document.getElementById('root')
-)
+  </Router>,
+  document.getElementById("root")
+);

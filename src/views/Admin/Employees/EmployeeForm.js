@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import UserContext from "../../contexts/User/UserContext";
+import UserContext from "contexts/User/UserContext";
 import { useForm } from "react-hook-form";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import Button from "@material-ui/core/Button";
