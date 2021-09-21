@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import usersApi from "../../services/usersApi";
+import usersApi from "../../../services/usersApi";
 const UserQRCode = ({ user }) => {
   const [qr, setQR] = useState([]);
   useEffect(() => {

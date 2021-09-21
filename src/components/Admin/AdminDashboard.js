@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import UserContext from "../../contexts/User/UserContext";
 import { Bar } from "react-chartjs-2";
 import { today } from "../../utils/date";
-import DialogForm from "../DialogForm";
+import DialogForm from "../Modal/DialogForm";
 import FilterDashboard from "./FilterDashboard";
 import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
 const options = {

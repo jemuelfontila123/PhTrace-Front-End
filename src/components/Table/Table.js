@@ -1,7 +1,7 @@
 import React,{useEffect, useState} from 'react';
 import List from './List'
-import SmsForm from './SmsForm'
-import DialogForm from '../DialogForm'
+import SmsForm from 'components/Form/SmsForm'
+import DialogForm from '../Modal/DialogForm'
 
 const Table = ({data, rows, handleDelete, kind, isChecked, setIsChecked, numbers, setNumbers, smsOpen, setSmsOpen, isNumbers, setIsNumbers, handleSmsMessage}) => {
     const [allChecked, setAllChecked] = useState(false)

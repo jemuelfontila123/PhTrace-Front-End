@@ -3,7 +3,7 @@ import UserContext from "../../contexts/User/UserContext";
 import Table from "./Table";
 import TuneIcon from "@material-ui/icons/Tune";
 import SendIcon from "@material-ui/icons/Send";
-import DialogForm from "../DialogForm";
+import DialogForm from "../Modal/DialogForm";
 import { dateToday, today } from "../../utils/date";
 import { format, parseISO } from "date-fns";
 import FilterVisitor from "./FilterVisitor";

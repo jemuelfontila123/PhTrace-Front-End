@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useContext } from "react";
-import UserContext from "../../contexts/User/UserContext";
-import logo from "../../images/Logo.svg";
+import UserContext from "contexts/User/UserContext";
+import logo from "images/Logo.svg";
 import { Link } from "react-router-dom";
-import AdminVisitors from "./AdminVisitors";
-import AdminEmployees from "./AdminEmployees";
-import AdminDashboard from "./AdminDashboard";
-import AdminProfile from "./AdminProfile";
-import AdminNotification from "./AdminNotification";
+import AdminVisitors from "./Visitors/AdminVisitors";
+import AdminEmployees from "./Employees/AdminEmployees";
+import AdminDashboard from "./Dashboard/AdminDashboard";
+import AdminProfile from "./Profile/AdminProfile";
+import AdminNotification from "./Notifications/AdminNotification";
 import Snackbar from "@material-ui/core/Snackbar";
-import Alert from "../Alert";
+import Alert from "components/Alert";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
 import EmailIcon from "@material-ui/icons/Email";
@@ -21,7 +21,7 @@ import DashboardIcon from "@material-ui/icons/Dashboard";
 import AccountBoxIcon from "@material-ui/icons/AccountBox";
 import PhotoCameraIcon from "@material-ui/icons/PhotoCamera";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
-import establishmentsApi from "../../services/establishmentsApi";
+import establishmentsApi from "services/establishmentsApi";
 // import Link from '@material-ui/core/Link';
 const Admin = ({ run }) => {
   const active = {

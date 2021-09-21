@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import UserContext from "../../contexts/User/UserContext";
 import AddIcon from "@material-ui/icons/Add";
 import Table from "./Table";
-import DialogForm from "../DialogForm";
+import DialogForm from "../Modal/DialogForm";
 import EmployeeForm from "./EmployeeForm";
 import SendIcon from "@material-ui/icons/Send";
 

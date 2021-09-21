@@ -1,25 +1,22 @@
 import "./index.css";
 import React, { useEffect, useState, useContext } from "react";
 import UserContext from "./contexts/User/UserContext";
-import RegisterForm from "./components/RegisterForm";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Scanner from "./components/Admin/Scanner";
-import UserCard from "./components/User/UserCard";
-import Admin from "./components/Admin/Admin";
-// import Admin from './views/Admin/Admin'
-import LoginForm from "./components/LoginForm";
-import usersApi from "./services/usersApi";
-import loginApi from "./services/loginApi";
-import establishmentsApi from "./services/establishmentsApi";
+import RegisterForm from "views/Register/RegisterForm";
+import Home from "views/Home/Home";
+import Scanner from "components/Admin/Scanner";
+import UserCard from "views/User/UserCard";
+import Admin from 'views/Admin/Admin'
+import LoginForm from "./views/Login/LoginForm";
+import usersApi from "services/usersApi";
+import loginApi from "services/loginApi";
+import establishmentsApi from "services/establishmentsApi";
 import Snackbar from "@material-ui/core/Snackbar";
-import Alert from "./components/Alert";
+import Alert from "components/Alert";
 import { Switch, Route, Redirect } from "react-router-dom";
-import textApi from "./services/textApi";
+// import textApi from "services/textApi";
 // React Admin
 const App = () => {
   const userContext = useContext(UserContext);
-  const [overflow, setOverFlow] = useState("");
   const [state, setState] = useState({
     open: false,
     vertical: "top",
@@ -117,7 +114,6 @@ const App = () => {
         <Route exact path="/">
           {!userContext.user ? (
             <>
-              <Navbar />
               <Home />
             </>
           ) : userContext.user.role[0] === "user" ? (

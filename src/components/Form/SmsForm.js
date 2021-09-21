@@ -1,8 +1,8 @@
 import React, { useState, useContext } from "react";
 import { useForm } from "react-hook-form";
 import Button from "@material-ui/core/Button";
-import UserContext from "../../contexts/UserContext";
-import textApi from "../../services/textApi";
+import UserContext from "contexts/User/UserContext";
+import textApi from "services/textApi";
 const SmsForm = ({
   setOpen,
   number,

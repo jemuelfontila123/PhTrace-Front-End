@@ -5,7 +5,7 @@ import scanner from "../../images/scanner.jpg";
 import logo from "../../images/Logo.svg";
 import { Link } from "react-router-dom";
 import UserForm from "./UserForm";
-import DialogForm from "../DialogForm";
+import DialogForm from "../Modal/DialogForm";
 import Snackbar from "@material-ui/core/Snackbar";
 import Alert from "../Alert";
 const camStyle = {

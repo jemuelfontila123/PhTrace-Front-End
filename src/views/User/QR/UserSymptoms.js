@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import Button from "@material-ui/core/Button";
 import { useForm } from "react-hook-form";
-import { symptoms } from "../../utils/healthcheck";
-import usersApi from "../../services/usersApi";
-import UserContext from "../../contexts/User/UserContext";
+import { symptoms } from "../../../utils/healthcheck";
+import usersApi from "../../../services/usersApi";
+import UserContext from "../../../contexts/User/UserContext";
 const UserSymptoms = ({ setPage, setOpen }) => {
   const { register, handleSubmit } = useForm();
   const userContext = useContext(UserContext);

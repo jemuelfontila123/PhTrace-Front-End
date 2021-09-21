@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import Button from "@material-ui/core/Button";
 import { useForm } from "react-hook-form";
 import SaveAltIcon from "@material-ui/icons/SaveAlt";
-import UserContext from "../../contexts/UserContext";
-import establishmentsApi from "../../services/establishmentsApi";
+import UserContext from "contexts/User/UserContext";
+import establishmentsApi from "services/establishmentsApi";
 const AdminProfile = ({
   user,
   handleUpdateMessage,

@@ -1,8 +1,8 @@
 import React, { useState, useContext, useEffect } from "react";
-import DialogForm from "../DialogForm";
-import UserContext from "../../contexts/User/UserContext";
+import DialogForm from "components/Modal/DialogForm";
+import UserContext from "contexts/User/UserContext";
 import UserPrivacy from "./UserPrivacy";
-import UserVerification from "./UserVerification";
+import UserVerification from "../Settings/UserVerification";
 import UserQRCode from "./UserQRCode";
 import UserSymptoms from "./UserSymptoms";
 const UserQr = ({ open, setOpen, id }) => {

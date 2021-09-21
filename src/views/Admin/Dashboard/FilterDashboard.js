@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { format, parseISO } from "date-fns";
 import { useForm } from "react-hook-form";
 import Button from "@material-ui/core/Button";
-import { today } from "../../utils/date";
+import { today } from "utils/date";
 const FilterDashboard = ({ setOpen, handleClose, setState, setDate }) => {
   const { register, handleSubmit } = useForm();
   const max = 150;
